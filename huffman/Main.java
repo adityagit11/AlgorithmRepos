@@ -1,3 +1,30 @@
+/*
+ * 
+	Enter the number of entries?
+	6
+	Enter the frequency of all 6 entries
+	5 7 10 15 20 45
+	Systematically printing the list
+	5 -> 7 -> 10 -> 15 -> 20 -> 45 
+	10 -> 12 -> 15 -> 20 -> 45 
+	15 -> 20 -> 22 -> 45 
+	22 -> 35 -> 45 
+	45 -> 57 
+	102 
+	Printing the huffmann tree
+	102 
+	45 57 
+	22 35 
+	10 12 15 20 
+	5 7 
+	For entry 5 the code word generated is : 1010
+	For entry 7 the code word generated is : 1011
+	For entry 10 the code word generated is : 100
+	For entry 15 the code word generated is : 110
+	For entry 20 the code word generated is : 111
+	For entry 45 the code word generated is : 0
+*/
+
 package huffman;
 
 import java.util.Arrays;
