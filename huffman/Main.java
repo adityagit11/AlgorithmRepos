@@ -103,7 +103,7 @@ public class Main
 		
 		for(int i = 0;i<n;i++)
 		{
-			System.out.print("For the entry "+ar[i]+" code word generated is : ");
+			System.out.print("For entry "+ar[i]+" the code word generated is : ");
 			printTreeCode(head,array,index,ar[i]);
 			System.out.println();
 		}
@@ -188,7 +188,14 @@ public class Main
 		Node temp = head;
 		while(temp!=null)
 		{
-			System.out.print(temp.data+" ");
+			if(temp.next==null)
+			{
+				System.out.print(temp.data+" ");
+			}
+			else
+			{
+				System.out.print(temp.data+" -> ");
+			}
 			temp = temp.next;
 		}
 		System.out.println();
